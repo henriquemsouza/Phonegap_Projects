@@ -1,0 +1,29 @@
+
+#info{
+		text-align: bottom;
+		background-color:#e5f7ff;
+		}
+		
+body{
+	
+	background-color: #cce5ff ;
+}
+
+#ops{
+	background-color:white;
+}
+#btLF{
+	position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+#backBUop{
+	position: absolute;
+    bottom: 8px;
+    right: 16px;
+	
+	background-color:white;
+    border: none;
+    color: black;
+	
+}

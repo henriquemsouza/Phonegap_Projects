@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+       <link rel="stylesheet" type="text/css" href="css/indexCR.css" />       
+	   <style>
+		  #hab{
+		    
+		   max-width: 40px;
+            max-height: 40px;
+		  text-align:center;
+		  }
+		</style>
+        <title></title>
+    </head>
+    <body>
+        <div class="app">
+		
+		
+		<div>
+		<form action="">
+		
+		<br>
+		Nome do jogador:<br>
+		<input type="text" name="nome"><br>
+		Nick name:<br>
+		<input type="text" name="nick"><br>
+		Idade:<br>
+		<input type="text" name="age"><br>
+		Raça:<br>
+		<input type="text" name="raca" ><br>
+		Idade<br>
+		<input type="text" name="idade"><br>
+		Classe:<br>
+		<input type="text" name="classe"><br>
+		HP:<br>
+		<input type="text" name="hp"><br>
+		MP<br>
+		<input type="text" name="mp"><br>
+		<br>
+		<label for="TAM">Tamanho: </label>
+		<select name="TAM">
+		<option value="PE">Pequeno</option>
+		<option value="ME">Medio</option>
+		<option value="GR">Grande</option>
+		</select>
+		<br>
+		<label for="Sexo">GENERO: </label>
+		<select name="Sexo">
+		<option value="f"> FEMININO</option>
+		<option value="m">MASCULINO</option>
+		</select>
+		<br>
+		<br>
+		<table  width="100%">
+	  <tr>
+	    <td><img src="img/habi.png" id="hab"></td><td><a align="center"> Habilidades </a></td>
+	  </tr>
+	    </table> 
+		<table border="1">
+	
+		<tr>
+		<td>Força:</td>
+		<td><input type="text" name="forc"></td>
+		</tr>
+		<tr>
+		<td>Destreza:</td>
+		<Td><input type="text" name="dest"></td>
+		</tr>
+		<tr>
+		<td>Resistencia:</td>
+		<Td><input type="text" name="rest"></td>
+		</tr>
+		<tr>
+		<td>Inteligencia:</td>
+		<Td><input type="text" name="int"></td>
+		</tr>
+		<tr>
+		<td>Sabedoria:</td>
+		<Td><input type="text" name="sab"></td>
+		</tr>
+		<tr>
+		<td>Carisma:</td>
+		<Td><input type="text" name="cari"></td>
+		</tr>
+	  
+		</table>
+	
+	    <br>
+		</form>	
+		<hr>
+	    <br>
+		<br>
+		
+           <div>
+		    <button onclick="navigator.app.backHistory();" id="backBUcr">Voltar</button>
+		  </div>
+         
+	    <script type="text/javascript" src="cordova.js"></script>
+    </body>
+	
+</html>

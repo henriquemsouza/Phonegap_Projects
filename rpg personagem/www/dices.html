@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+     <link rel="stylesheet" type="text/css" href="css/indexDI.css" />         
+	   <style>
+		   #tbDICE{
+	float;center:
+	text-align:center;
+}
+
+		</style>
+        <title></title>
+    </head>
+    <body>
+        <div class="app">
+		
+		<div>
+		<p align="middle"><table border="1" id="tbDICE" >
+	<tr>
+      <td><button id="dic" onclick="m4Function()">D4</button></td>
+      <td id="exibir"><p id="dem4"></p></td>
+        <script>
+          function m4Function() {
+           var y4 = Math.floor(Math.random() * 5);
+            document.getElementById("dem4").innerHTML =y4;
+    
+        }
+         </script>
+	</tr>	
+		
+	<tr>
+      <td><button id="dic" onclick="m6Function()">D6</button></td>
+      <td id="exibir"><p id="dem6"></p></td>
+        <script>
+          function m6Function() {
+           var y6 = Math.floor(Math.random() * 7);
+            document.getElementById("dem6").innerHTML =y6;
+    
+        }
+         </script>
+	</tr>
+		
+	<tr>
+      <td><button id="dic"  onclick="maFunction()">D8</button></td>
+      <td id="exibir"><p id="dem8"></p></td>
+        <script>
+          function maFunction() {
+           var y1 = Math.floor(Math.random() * 9);
+            document.getElementById("dem8").innerHTML =y1;
+    
+        }
+         </script>
+	</tr>
+	
+	<tr>
+      <td><button id="dic" onclick="mFunction()">D10</button></td>
+      <td id="exibir"><p id="dem"></p></td>
+        <script>
+          function mFunction() {
+           var y = Math.floor(Math.random() * 11);
+            document.getElementById("dem").innerHTML =y;
+    
+        }
+         </script>
+	</tr>
+
+	<tr>
+      <td><button id="dic"  onclick="m12Function()">D12</button></td>
+      <td id="exibir"><p id="dem12"></p></td>
+        <script>
+          function m12Function() {
+           var y12 = Math.floor(Math.random() * 13);
+            document.getElementById("dem12").innerHTML =y12;
+    
+        }
+         </script>
+	</tr>
+	
+	<tr>
+      <td><button id="dic"  onclick="myFunction()">D20</button></td> 
+	  <td id="exibir"><p id="demo"></p></td>
+         <script>
+          function myFunction() {
+           var x = Math.floor((Math.random() * 21) );
+          document.getElementById("demo").innerHTML = x;
+        }
+          </script>
+	</tr>
+	
+	<tr>
+      <td><button id="dic" onclick="m100Function()">D100</button></td>
+      <td id="exibir"><p id="dem100"></p></td>
+        <script>
+          function m100Function() {
+           var y100 = Math.floor(Math.random() * 101);
+            document.getElementById("dem100").innerHTML =y100;
+    
+        }
+         </script>
+	</tr>
+	
+	</table></p>
+	
+		</div>
+		
+		<div >
+		<button id="backBU"onclick="navigator.app.backHistory();"> Voltar</button>
+		</div>
+		</div>
+
+		
+         
+	    <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
